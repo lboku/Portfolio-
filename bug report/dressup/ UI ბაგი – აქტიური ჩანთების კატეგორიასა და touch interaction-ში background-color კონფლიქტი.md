@@ -1,14 +1,15 @@
-id: DRES-187
-title: UI ბაგი – აქტიური ჩანთების კატეგორიასა და touch interaction-ში background-color კონფლიქტი
+id: FQMP-20
+title:  UI ბაგი – აქტიური ჩანთების კატეგორიასა და touch interaction-ში background-color კონფლიქტი
+
 
 steps:
-1. შედით ვებ გვერდზე: https://dressup.ge/ka/ 
+1. გახსენით ვებ გვერდი: https://dressup.ge/
 
 2. ჩამოსქროლეთ ჩანთების Product slider-მდე
 
 3. დააკვირდით აქტიურ კატეგორიას
 
-4. გადასქროლეთ ჩანთების კატეგორიები სხვა კატეგორიაზე თითის დაყოვნებით დადებით.
+4. გადასქროლეთ ჩანთების კატეგორიები სხვა კატეგორიაზე თითის (დაყოვნებით) დადებით.
 
 Actual result:
 ფიქსირდება ვიზუალური შეცდომა. აქტიური კატეგორის და touch interaction -ის background-color არის #34404e და თითის აწევის შემდეგ ორივეზე რჩება ეს ფერები.
@@ -18,12 +19,13 @@ Expected result:
 
 Enviroment:
  სატესტო.
+ 
 
 device: iphone 16, 
 OS: IOS 26.0.1 , 
 browser: CHROME V 141
 
-meta data:
+Frequency: 100%
 severity: medium
 priority: low
 
