@@ -1,28 +1,37 @@
-id: dr-22
-Steps:
-•  გახსენით მთავარი გვერდი.
-•  დადექით search bar-ზე
-•  ჩაწერეთ ნებისმიერი სწორი საძიებო სიტყვა
-•  დააჭირეთ search button-ს
+__id:__ dr-22
+
+__Steps:__
+
+1.  გახსენით მთავარი გვერდი.
+2.  დადექით search bar-ზე
+3.  ჩაწერეთ ნებისმიერი სწორი საძიებო სიტყვა
+4.  დააჭირეთ search button-ს
 
 
-Actual result:
+__Actual result:__
+
 ძებნის შედეგი გამოდის მინიმუმ 10 წამიანი დაყოვნებით
 
-Expected result:
+__Expected result:__
+
 ძებნის შედეგი უნდა გამოდიოდეს მაქსიმუმ 5 წამიანი დაყოვნებით
 
-შენიშვნა: 
+__შენიშვნა:__
+
 ერთი და იგივე საძიებო სიტყვის მრავალჯერ გამოყენებისას დრო მცირდება თუმცა საძებო სიტყვა როგორც კი შეიცვლება ძებნის დრო ისევ ადის 10 წამზე მაღლა
 
-Enviroment:
- სატესტო.
+__Enviroment:__
 
-device: macbook pro 13-inch, M1, 2020
-OS: sequoia 15.6.1 
-browser: Chrome 139.0.7258.139
+__prodaction__
 
+__device:__ macbook pro 13-inch, M1, 2020
 
-Frequency: 100%
-severity: medium
-priority: medium
+__OS:__ sequoia 15.6.1 
+
+__browser:__ Chrome 139.0.7258.139
+
+__Frequency:__ 100%
+
+__severity:__ medium
+
+__priority:__ medium

@@ -1,31 +1,40 @@
-id: FQMP-20
-title:  text-box-ში წარწერა გამოდის საზღვრებს გარეთ.
+__id:__ FQMP-20
 
-steps:
-1. გახსენით ვებ გვერდი: https://codepen.io/Vakhtang-Muskhelishvili/full/dPGOvNR
+__title:__  text-box-ში წარწერა გამოდის საზღვრებს გარეთ.
+
+__steps:__
+
+1. გახსენით ვებ გვერდი: XXXX
 
 2. იპოვეთ ტექსტ ბოქსი.
 
 3. დააკვირდით შიგნით მოთავსებული ტექსტის განლაგებას.
 
 
-Actual result:
+__Actual result:__
+
 ტექსტი უნდა ეტეოდეს text-box-ში და იყოს სწორად მოთავსებული padding-ის ფარგლებში
 
-Expected result:
+__Expected result:__
+
 ტექსტი უნდა ეტეოდეს ტექსტ ბოქსში და იყოს სწორად მოთავსებული padding-ის ფარგლებში
 
-Enviroment:
- სატესტო.
+__Enviroment:__
+
+__prodaction__
  
 
-device: iphone 16, 
-OS: IOS 26.0.1 , 
-browser: CHROME V 141
+__device:__ iphone 16
 
-Frequency: 100%
-severity: minor
-priority: medium
+__OS:__ IOS 26.0.1 
 
-Attachments:
-https://drive.google.com/file/d/1VNfrpr4LvYvdH-jxopmBoQ1KIz2efgEd/view?usp=drive_link
+__browser:__ CHROME V 141
+
+__Frequency:__ 100%
+
+__severity:__ minor
+
+__priority:__ medium
+
+__Attachments:__
+XXXXXX

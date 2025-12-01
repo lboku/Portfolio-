@@ -1,19 +1,34 @@
-Id:invu-03
-Steps:
-•	გახსენით ვებგვერდი: https://invu.ge/ 
-•	დააჭირეთ burger-bur-ის აიქონს 
-•	აირჩიეთ შაბლონები
-•	ჩამოსქროლეთ გვერდი footer სექციამდე 
-•	დააკვირდით language selector-ის გასწვრივ ისარს
-Actual Result:
+__Id:__ in-03
+
+__title:__ ენის selector-ის ისარი გასულია selector-box-დან
+
+__Steps:__
+
+1.	გახსენით ვებ-გვერდი: XXXXX
+2.	დააჭირეთ burger-bur-ის აიქონს 
+3.	აირჩიეთ შაბლონები
+4.	ჩამოსქროლეთ გვერდი footer სექციამდე 
+5.	დააკვირდით language selector-ის გასწვრივ ისარს
+
+__Actual Result:__
+
 language selector-ის ისარი გასული selector-box-ს გარეთ
-Expected Result:
+
+__Expected Result:__
+
 language selector-ის ისარი უნდა იყოს language selector-ის  საზღვრებში მოქცეული
-Environment:
-•	Browser: Chrome Version 139.0.7258.139
-•	Device: MacBook 13-inch 2020
-•	OS: macOS Sequoia 15.6.1
-Priority/Severity:
-•	Priority: low
-•	Severity: Minor UI defect
-Attachments: 
+
+__Environment:__
+
+__Browser:__ Chrome Version 139.0.7258.139
+
+__device:__ MacBook 13-inch 2020
+
+__OS:__ macOS Sequoia 15.6.1
+
+__Priority:__ low
+
+__Severity:__ Minor UI defect
+
+__Attachments:__
+XXXXX

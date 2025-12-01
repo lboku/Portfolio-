@@ -1,8 +1,9 @@
-id: FQMP-20
-title:  UI ბაგი – აქტიური ჩანთების კატეგორიასა და touch interaction-ში background-color კონფლიქტი
+__id:__ FQMP-20
 
+__title:__  UI ბაგი – აქტიური ჩანთების კატეგორიასა და touch interaction-ში background-color კონფლიქტი
 
-steps:
+__steps:__
+
 1. გახსენით ვებ გვერდი: https://dressup.ge/
 
 2. ჩამოსქროლეთ ჩანთების Product slider-მდე
@@ -11,23 +12,29 @@ steps:
 
 4. გადასქროლეთ ჩანთების კატეგორიები სხვა კატეგორიაზე თითის (დაყოვნებით) დადებით.
 
-Actual result:
+__Actual result:__
+
 ფიქსირდება ვიზუალური შეცდომა. აქტიური კატეგორის და touch interaction -ის background-color არის #34404e და თითის აწევის შემდეგ ორივეზე რჩება ეს ფერები.
 
-Expected result:
+__Expected result:__
+
 თითის აწევის შემდეგ touch interaction -ის   background color უნდა უბრუნდებოდეს საწყის ფერს,რათა მომხმარებელმა შეძლოს არჩეული კატეგორიის დანახვა.
 
-Enviroment:
- სატესტო.
+__Enviroment:__
+
+__prodaction__
  
+__device:__ iphone 16 
 
-device: iphone 16, 
-OS: IOS 26.0.1 , 
-browser: CHROME V 141
+__OS:__ IOS 26.0.1
 
-Frequency: 100%
-severity: medium
-priority: low
+__browser:__ CHROME V 141
 
-Attachments:
- https://drive.google.com/file/d/1POUHsKHTznz9Hds1QGNXbKQz0XvHErEg/view?usp=drive_link
+__Frequency:__ 100%
+
+__severity:__ medium
+
+__priority:__ low
+
+__Attachments:__
+XXXXX
