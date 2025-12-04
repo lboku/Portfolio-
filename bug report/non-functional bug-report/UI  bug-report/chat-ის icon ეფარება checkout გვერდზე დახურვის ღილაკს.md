@@ -39,3 +39,6 @@ __Frequency:__ 100%
 __Severity:__ საშუალო
 
 __Priority:__ საშუალო
+
+__Attachments:__ 
+XXX-XXX
