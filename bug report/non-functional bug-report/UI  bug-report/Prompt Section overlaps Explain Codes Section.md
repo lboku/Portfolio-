@@ -1,8 +1,8 @@
-__id:__ dr-222
+__Id:__ dr-223
 
-__title:__ Prompt Section overlaps Explain Codes Section
+__Title:__ Prompt Section overlaps Explain Codes Section
 
-__description__
+__Description__
 
 After expanding the Prompt section, navigating to Explain Codes section causes the new section to appear behind Prompt section. Users cannot see or interact with the options.
 
@@ -29,15 +29,15 @@ All options should be interactive
 
 __Enviroment:__
 
-__device:__ iphone 16
+__Device:__ iphone 16
 
 __OS:__ IOS 26.2
 
-__browser:__ Google Chrome V 142.0.7444.77
+__Browser:__ Google Chrome V 142.0.7444.77
 
 __Frequency:__ 100%
 
-__priority:__ medium
+__Priority:__ medium
 
-__attachments:__ 
+__Attachments:__ 
 XXX-XXX

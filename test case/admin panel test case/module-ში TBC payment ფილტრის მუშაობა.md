@@ -1,4 +1,4 @@
-__id:__ DRESSUP-181
+__id:__ DP-3
 
 __title:__ module-ში TBC payment ფილტრის მუშაობა
 
@@ -31,12 +31,12 @@ __Steps:__
 
 გამოჩნდება ყველა ის შეკვეთა რომელიც გადახდილია TBC გადახდით
   
-__Severity:__ major
+__Severity:__ მაჟორი
 
-__Priority:__ medium
+__Priority:__ საშუალო
 
 __Behavior:__ დადებითი
 
 __Type:__ ფუნქციონალური
 
-__automation status:__ manual
+__Automation status:__ manual

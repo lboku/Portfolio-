@@ -1,4 +1,4 @@
-__id:__ DRESSUP-181
+__id:__ DP-4
 
 __title:__ Verify “Date From” filter
 
@@ -39,12 +39,12 @@ __Steps:__
 
 შეკვეთები გაიფილტრება შეყვანულ თარიღამდე
   
-__Severity:__ major
+__Severity:__ მაჟორი
 
-__Priority:__ medium
+__Priority:__ საშუალო
 
 __Behavior:__ დადებითი
 
 __Type:__ ფუნქციონალური
 
-__automation status:__ manual
+__Automation status:__ manual

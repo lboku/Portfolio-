@@ -1,10 +1,10 @@
 __Id:__ in-03
 
-__title:__ ენის selector-ის ისარი გასულია selector-box-დან
+__Title:__ ენის selector-ის ისარი გასულია selector-box-დან
 
 __Steps:__
 
-1.	გახსენით ვებ-გვერდი: XXXXX
+1.	გახსენით ვებ-გვერდი: example.com
 2.	დააჭირეთ burger-bur-ის აიქონს 
 3.	აირჩიეთ შაბლონები
 4.	ჩამოსქროლეთ გვერდი footer სექციამდე 
@@ -22,7 +22,7 @@ __Environment:__
 
 __Browser:__ Chrome Version 139.0.7258.139
 
-__device:__ MacBook 13-inch 2020
+__Device:__ MacBook 13-inch 2020
 
 __OS:__ macOS Sequoia 15.6.1
 

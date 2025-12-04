@@ -1,8 +1,8 @@
-__id:__ DRESSUP-181
+__Id:__ DP-1
 
-__title:__ module-ში Ipay Ge ფილტრის მუშაობა
+__Title:__ module-ში Ipay Ge ფილტრის მუშაობა
 
-__description:__ 
+__Description:__ 
 
 ვამოწმებთ module-ში Ipay Ge  არჩევის შემთხვევაში გამოიტანოს ყველა ის შეკვეთა რომელიც გადახდილია საქართველოს ბანკით
 
@@ -31,12 +31,12 @@ __Steps:__
 
 გამოჩნდება ყველა ის შეკვეთა რომელიც გადახდილია საქართველოს ბანკით
   
-__Severity:__ major
+__Severity:__ მაჟორი
 
-__Priority:__ medium
+__Priority:__ საშუალო
 
 __Behavior:__ დადებითი
 
 __Type:__ ფუნქციონალური
 
-__automation status:__ manual
+__Automation status:__ manual

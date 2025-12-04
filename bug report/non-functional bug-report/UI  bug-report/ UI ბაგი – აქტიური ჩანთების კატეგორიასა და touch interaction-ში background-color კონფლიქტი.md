@@ -1,8 +1,8 @@
-__id:__ FQMP-20
+__Id:__ FQMP-20
 
-__title:__  UI ბაგი – აქტიური ჩანთების კატეგორიასა და touch interaction-ში background-color კონფლიქტი
+__Title:__  UI ბაგი – აქტიური ჩანთების კატეგორიასა და touch interaction-ში background-color კონფლიქტი
 
-__steps:__
+__Steps:__
 
 1. გახსენით ვებ გვერდი: https://dressup.ge/
 
@@ -22,19 +22,19 @@ __Expected result:__
 
 __Enviroment:__
 
-__prodaction__
+__Prodaction__
  
-__device:__ iphone 16 
+__Device:__ iphone 16 
 
 __OS:__ IOS 26.0.1
 
-__browser:__ CHROME V 141
+__Browser:__ CHROME V 141
 
 __Frequency:__ 100%
 
-__severity:__ medium
+__Severity:__ საშუალო
 
-__priority:__ low
+__Priority:__ დაბალი
 
 __Attachments:__
 XXXXX

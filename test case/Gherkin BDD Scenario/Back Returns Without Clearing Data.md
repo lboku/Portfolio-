@@ -1,6 +1,6 @@
-__id:__ DRESSUP-181
+__Id:__ GB-002
 
-__title:__ Back Returns Without Clearing Data
+__Title:__ Back Returns Without Clearing Data
 
 __Feature__
 
@@ -10,14 +10,20 @@ __Scenario:__
 
 Back button returns to the previous page without clearing entered data
 
-__description:__ 
+__Description:__ 
 
 **Given** the user opens the registration details page
+
 **And** enters valid First Name, Last Name, and Email
+
 **And** clicks the Next button
+
 **And** lands on the "Verify Pin Code" page
+
 **When** the user clicks the Back button
+
 **Then** the system navigates back to the First Name/Last Name/Email page
+
 **And** all previously entered values remain filled
 
 
@@ -27,4 +33,4 @@ __Behavior:__ positive
 
 __Type:__ function
 
-__automation status:__ manual
+__Automation status:__ manual

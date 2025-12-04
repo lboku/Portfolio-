@@ -1,8 +1,8 @@
-__id:__ dr-222
+__Id:__ dr-132
 
-__title:__ Prompt Section overlaps Summarize Section
+__Title:__ Prompt Section overlaps Summarize Section
 
-__description__
+__Description__
 
 When the user opens the Prompt section and then scrolls/clicks to Summarize section, the Summarize section is visually hidden behind the Prompt section. Users cannot see or interact with the Summarize options.
 
@@ -30,15 +30,15 @@ __Expected result:__
 
 __Enviroment:__
 
-__device:__ iphone 16
+__Device:__ iphone 16
 
 __OS:__ IOS 26.2
 
-__browser:__ Google Chrome V 142.0.7444.77
+__Browser:__ Google Chrome V 142.0.7444.77
 
 __Frequency:__ 100%
 
-__priority:__ medium
+__Priority:__ medium
 
-__attachments:__ 
+__Attachments:__ 
 XXX-XXX

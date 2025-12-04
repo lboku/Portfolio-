@@ -1,8 +1,8 @@
-__id:__ dr-22
+__Id:__ dr-22
 
 __Steps:__
 
-1.  გახსენით მთავარი გვერდი.
+1.  გახსენით მთავარი გვერდი example.com
 2.  დადექით search bar-ზე
 3.  ჩაწერეთ ნებისმიერი სწორი საძიებო სიტყვა
 4.  დააჭირეთ search button-ს
@@ -16,22 +16,22 @@ __Expected result:__
 
 ძებნის შედეგი უნდა გამოდიოდეს მაქსიმუმ 5 წამიანი დაყოვნებით
 
-__შენიშვნა:__
+__Addition:__
 
 ერთი და იგივე საძიებო სიტყვის მრავალჯერ გამოყენებისას დრო მცირდება თუმცა საძებო სიტყვა როგორც კი შეიცვლება ძებნის დრო ისევ ადის 10 წამზე მაღლა
 
 __Enviroment:__
 
-__prodaction__
+__Prodaction__
 
-__device:__ macbook pro 13-inch, M1, 2020
+__Device:__ macbook pro 13-inch, M1, 2020
 
 __OS:__ sequoia 15.6.1 
 
-__browser:__ Chrome 139.0.7258.139
+__Browser:__ Chrome 139.0.7258.139
 
 __Frequency:__ 100%
 
-__severity:__ medium
+__Severity:__ საშუალო
 
-__priority:__ medium
+__Priority:__ საშუალო

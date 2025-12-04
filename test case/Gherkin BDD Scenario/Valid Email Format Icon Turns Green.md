@@ -1,6 +1,6 @@
-__id:__ DRESSUP-181
+__Id:__ GB-10
 
-__title:__ Clicking the Sign Up button 
+__Title:__ Clicking the Sign Up button 
 
 __Feature__
 
@@ -21,4 +21,4 @@ __Priority:__ low
 
 __Type:__ function
 
-__automation status:__ manual
+__Automation status:__ manual

@@ -1,4 +1,4 @@
-__id:__ DRESSUP-181
+__id:__ GB-008
 
 __title:__ Re-Send PIN Code
 
@@ -10,7 +10,7 @@ __Scenario:__
 
 Clicking the Re-Send button sends the PIN code again to Email
 
-__description:__ 
+__Description:__ 
 
 **Given** the user is on the Verify Pin Code page
 **When** the user clicks the Re-Send button
@@ -23,4 +23,4 @@ __Behavior:__ positive
 
 __Type:__ function
 
-__automation status:__ manual
+__Automation status:__ manual

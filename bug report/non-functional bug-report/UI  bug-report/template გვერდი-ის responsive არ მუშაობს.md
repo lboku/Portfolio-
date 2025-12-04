@@ -1,10 +1,10 @@
 __Id:__ in-02
 
-__title__ template გვერდი-ის responsive არ მუშაობს
+__Title__ template გვერდი-ის responsive არ მუშაობს
 
 __Steps:__
 
-1.	გახსენით ვებგვერდი: XXXXX
+1.	გახსენით ვებგვერდი: example.com
 2.	დააჭირეთ burger-bur-ის აიქონს 
 3.	აირჩიეთ შაბლონები
 
@@ -28,5 +28,5 @@ __Priority:__ Medium
 
 __Severity:__ major
 
-__attachments:__
+__Attachments:__
 XXXXXX

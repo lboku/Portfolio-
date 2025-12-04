@@ -1,4 +1,4 @@
-__id:__ DRESSUP-181
+__id:__ GB-009
 
 __title:__ Re-Send Works After Back → Next Return
 
@@ -10,7 +10,7 @@ __Scenario:__
 
 Re-Send button works after returning with Back and navigating to PIN page again
 
-__description:__ 
+__Description:__ 
 
 **Given** the user opens the registration details page
 **And** enters valid First Name, Last Name, and Email
@@ -30,4 +30,4 @@ __Behavior:__ positive
 
 __Type:__ function
 
-__automation status:__ manual
+__Automation status:__ manual

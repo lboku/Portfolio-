@@ -1,10 +1,10 @@
-__id:__ FQMP-20
+__Id:__ FQMP-20
 
-__title:__  text-box-ში წარწერა გამოდის საზღვრებს გარეთ.
+__Title:__  text-box-ში წარწერა გამოდის საზღვრებს გარეთ.
 
-__steps:__
+__Steps:__
 
-1. გახსენით ვებ გვერდი: XXXX
+1. გახსენით ვებ გვერდი: example.com
 
 2. იპოვეთ ტექსტ ბოქსი.
 
@@ -23,18 +23,15 @@ __Enviroment:__
 
 __prodaction__
  
-
 __device:__ iphone 16
 
 __OS:__ IOS 26.0.1 
 
-__browser:__ CHROME V 141
+__Browser:__ CHROME V 141
 
 __Frequency:__ 100%
 
-__severity:__ minor
-
-__priority:__ medium
+__Priority:__ საშუალო
 
 __Attachments:__
 XXXXXX

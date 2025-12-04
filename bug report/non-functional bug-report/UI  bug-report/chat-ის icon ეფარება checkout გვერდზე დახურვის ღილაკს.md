@@ -1,11 +1,11 @@
-__id:__ dr-22
+__Id:__ dr-22
 
-__title:__ chat-ის icon ეფარება checkout გვერდზე დახურვის ღილაკს
+__Title:__ chat-ის icon ეფარება checkout გვერდზე დახურვის ღილაკს
 
-__precondition:__
+__Precondition:__
 
-1.  გახსენით ვებ-გვერდი.
-2.  უნდა იყოთ ავტორიზებული გვერდზე.
+1.  გახსენით ვებ-გვერდი example.com
+2.  უნდა იყოთ ავტორიზებული გვერდზე
 3.  კალათაში უნდა იყოს პროდუქტი დამატებული
 
 __Steps:__
@@ -26,17 +26,16 @@ __Expected result:__
 
 __Enviroment:__
 
-__prodaction__
+__Prodaction__
 
-__device:__ iphone 16
+__Device:__ iphone 16
 
 __OS:__ IOS 26.1 
 
-__browser:__ safari 26.1
-
+__Browser:__ safari 26.1
 
 __Frequency:__ 100%
 
-__severity:__ medium
+__Severity:__ საშუალო
 
-__priority:__ medium
+__Priority:__ საშუალო

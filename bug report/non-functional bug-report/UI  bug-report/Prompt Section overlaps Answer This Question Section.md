@@ -1,8 +1,8 @@
-__id:__ dr-222
+__Id:__ dr-212
 
-__title:__ Prompt Section overlaps Answer This Question Section
+__Title:__ Prompt Section overlaps Answer This Question Section
 
-__description__
+__Description__
 
 Opening the Prompt section and then navigating to Answer This Question section results in the new section being hidden behind Prompt. Users cannot access its content.
 
@@ -29,15 +29,15 @@ All content should be accessible
 
 __Enviroment:__
 
-__device:__ iphone 16
+__Device:__ iphone 16
 
 __OS:__ IOS 26.2
 
-__browser:__ Google Chrome V 142.0.7444.77
+__Browser:__ Google Chrome V 142.0.7444.77
 
 __Frequency:__ 100%
 
-__priority:__ medium
+__Priority:__ medium
 
-__attachments:__ 
+__Attachments:__ 
 XXX-XXX

@@ -1,4 +1,4 @@
-__id:__ DRESSUP-181
+__id:__ DP-8
 
 __title:__ შეკვეთის მოძებნა ID-ით
 
@@ -34,4 +34,4 @@ __Behavior:__ დადებითი
 
 __Type:__ ფუნქციონალური
 
-__automation status:__ manual
+__Automation status:__ manual

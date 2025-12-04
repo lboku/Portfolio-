@@ -1,4 +1,4 @@
-__id:__ DRESSUP-181
+__id:__ DP-5
 
 __title:__ Verify “Date From” filter
 
@@ -26,12 +26,12 @@ __Steps:__
 
 გვერდზე უნდა გამოჩნდეს ყველა ის შეკვეთა რომელიც თარიღდება ჩვენი შეყვანილი თარიღით და ამ თარიღზე უფრო ახალი შეკვეტებით
   
-__Severity:__ major
+__Severity:__ მაჟორი
 
-__Priority:__ medium
+__Priority:__ საშუალო
 
 __Behavior:__ დადებითი
 
 __Type:__ ფუნქციონალური
 
-__automation status:__ manual
+__Automation status:__ manual

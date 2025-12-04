@@ -1,6 +1,6 @@
-__id:__ dr-222
+__Id:__ dr-222
 
-__title:__ ტექსტის შეუსაბამობა დიზაინთან  ‘Choose City’ ნაცვლად ‘Region’”
+__Title:__ ტექსტის შეუსაბამობა დიზაინთან  ‘Choose City’ ნაცვლად ‘Region’”
 
 __Precondition:__
 
@@ -22,17 +22,17 @@ __Expected result:__
 
 __Enviroment:__
 
-__production__
+__Production__
 
-__device:__ iphone 16
+__Device:__ iphone 16
 
 __OS:__ IOS 26.1
 
-__browser:__ Google Chrome V 142.0.7444.77
+__Browser:__ Google Chrome V 142.0.7444.77
 
 __Frequency:__ 100%
 
-__priority:__ low
+__Priority:__ დაბალი
 
-__attachments:__
+__Attachments:__
 XXX-XXX
