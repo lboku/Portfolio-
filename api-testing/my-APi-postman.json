@@ -1,0 +1,426 @@
+{
+  "info": {
+    "_postman_id": "99116adb-6b25-4a01-96be-3083ae0e4335",
+    "name": "api github-დან",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "26129923"
+  },
+  "item": [
+    {
+      "name": "api status",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"status code is 200\", () => { })",
+              "",
+              " let oldid=pm.response.json().length",
+              " let id=oldid+1;",
+              " console.log(id)",
+              "pm.collectionVariables.set(\"id\",id)"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/users/",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete id 3 data",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", () => {",
+              "  pm.response.to.have.status(200);",
+              "});",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/users/3",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "add id 3 data",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Successful POST request\", function () {",
+              "    pm.expect(pm.response.code).to.be.oneOf([201, 202]);",
+              "});",
+              "",
+              "pm.test(\"Response time is less than 200ms\", function () {",
+              "    pm.expect(pm.response.responseTime).to.be.below(200);",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\": \"3\",\n    \"name\": \"Mariam Beridze\",\n    \"firstName\": \"Mariam\",\n    \"lastName\": \"Beridze\",\n    \"profession\": \"UI/UX Designer\",\n    \"email\": \"mariam.beridze@mail.com\",\n    \"phone\": \"+995555111003\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/users",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "add new user",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Georgian phone numbers format check\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    jsonData.users?.forEach(function(user) {",
+              "        if(user.phone.startsWith(\"+995\")) {",
+              "            pm.expect(user.phone).to.match(/^\\+995\\d{9}$/);",
+              "        }",
+              "    });",
+              "});",
+              "",
+              "const expectedFirstName = pm.variables.get(\"firstName\");",
+              "const expectedLastName = pm.variables.get(\"lastName\");",
+              "const expectedFullName = pm.variables.get(\"fullName\");",
+              "",
+              "",
+              "const responseData = pm.response.json();",
+              "",
+              "pm.test(\"სრული სახელი (name) სწორად არის გენერირებული\", function () {",
+              "    const actualName = responseData.name;",
+              "    pm.expect(actualName).to.contain(expectedFirstName);",
+              "    pm.expect(actualName).to.contain(expectedLastName);",
+              "});",
+              "",
+              "",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "const first = pm.variables.replaceIn(\"{{$randomFirstName}}\");",
+              "const last  = pm.variables.replaceIn(\"{{$randomLastName}}\");",
+              "",
+              "pm.variables.set(\"firstName\", first);",
+              "pm.variables.set(\"lastName\", last);",
+              "pm.variables.set(\"fullName\", `${first} ${last}`);",
+              "",
+              "",
+              "const phone = \"+9955\" + Math.floor(10000000 + Math.random() * 90000000);",
+              "pm.variables.set(\"phone\", String(phone));",
+              "",
+              "const addemail =`${first}${last}@gmail.com`",
+              "pm.variables.set(\"email\", addemail)",
+              "",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": \"{{id}}\",\n  \"name\": \"{{fullName}}\",\n  \"firstName\": \"{{firstName}}\",\n  \"lastName\": \"{{lastName}}\",\n  \"profession\": \"QA lead\",\n  \"email\": \"{{email}}\",\n  \"phone\": \"{{phone}}\"\n}\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/users",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "change all value",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "const first = pm.variables.replaceIn(\"{{$randomFirstName}}\");",
+              "const last  = pm.variables.replaceIn(\"{{$randomLastName}}\");",
+              "",
+              "pm.variables.set(\"firstName\", first);",
+              "pm.variables.set(\"lastName\", last);",
+              "pm.variables.set(\"fullName\", `${first} ${last}`);",
+              "pm.variables.set(\"randomEmail\", `${first}${last}@gmail.com`);",
+              "",
+              "const phone = \"+9955\" + Math.floor(10000000 + Math.random() * 90000000);",
+              "pm.variables.set(\"phone\", String(phone));"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const responseData = pm.response.json();",
+              "const expectedFirstName = pm.variables.get(\"firstName\");",
+              "const expectedLastName = pm.variables.get(\"lastName\");",
+              "const expectedFullName = pm.variables.get(\"fullName\");",
+              "const expectedEmail = pm.variables.get(\"randomEmail\");",
+              "const expectedPhone = pm.variables.get(\"phone\");",
+              "",
+              "pm.test(\"სტატუს კოდი არის 200 - მონაცემები წარმატებით განახლდა\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"FirstName წარმატებით შეიცვალა\", function () {",
+              "    pm.expect(responseData.firstName).to.eql(expectedFirstName);",
+              "});",
+              "",
+              "pm.test(\"LastName წარმატებით შეიცვალა\", function () {",
+              "    pm.expect(responseData.lastName).to.eql(expectedLastName);",
+              "});",
+              "",
+              "pm.test(\"FullName (სახელი + გვარი) ვალიდურია\", function () {",
+              "    pm.expect(responseData.name).to.eql(expectedFullName);",
+              "});",
+              "",
+              "pm.test(\"Email წარმატებით განახლდა\", function () {",
+              "    pm.expect(responseData.email).to.eql(expectedEmail);",
+              "});",
+              "",
+              "pm.test(\"Phone ნომერი სწორად განახლდა\", function () {",
+              "    pm.expect(responseData.phone).to.eql(expectedPhone);",
+              "});",
+              "",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": \"2\",\n  \"name\": \"{{fullName}}\",\n  \"firstName\": \"{{firstName}}\",\n  \"lastName\": \"{{lastName}}\",\n  \"profession\": \"QA lead\",\n  \"email\": \"{{randomEmail}}\",\n  \"phone\": \"{{phone}}\"\n}\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/users/2",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "change phone number",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "const phone = \"+9955\" + Math.floor(10000000 + Math.random() * 90000000);",
+              "pm.variables.set(\"phone\", String(phone));"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Georgian phone numbers format check\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    jsonData.users?.forEach(function(user) {",
+              "        if(user.phone.startsWith(\"+995\")) {",
+              "            pm.expect(user.phone).to.match(/^\\+995\\d{9}$/);",
+              "        }",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\": \"4\",\n    \"name\": \"aleksi beliashvili\",\n    \"firstName\": \"aleksi\",\n    \"lastName\": \"beliashvili\",\n    \"profession\": \"QA lead\",\n    \"email\": \"aleksibeliashvilI.com\",\n    \"phone\": \"{{phone}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseURL}}/users/4",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseURL",
+      "value": ""
+    },
+    {
+      "key": "id",
+      "value": ""
+    },
+    {
+      "value": ""
+    }
+  ]
+}

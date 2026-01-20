@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Lasha Bokuchava",
+      "firstName": "Lasha",
+      "lastName": "Bokuchava",
+      "profession": "Junior QA Engineer",
+      "email": "lasha.bokuchava@mail.com",
+      "phone": "+995555111001"
+    },
+    {
+      "id": "2",
+      "name": "Alda Schamberger",
+      "firstName": "Alda",
+      "lastName": "Schamberger",
+      "profession": "QA lead",
+      "email": "AldaSchamberger@gmail.com",
+      "phone": "+995580714187"
+    },
+    {
+      "id": "4",
+      "name": "aleksi beliashvili",
+      "firstName": "aleksi",
+      "lastName": "beliashvili",
+      "profession": "QA lead",
+      "email": "aleksibeliashvilI.com",
+      "phone": "+995546729089"
+    },
+    {
+      "id": "5",
+      "name": "Ana Maisuradze",
+      "firstName": "Ana",
+      "lastName": "Maisuradze",
+      "profession": "Product Manager",
+      "email": "ana.maisuradze@mail.com",
+      "phone": "+995555111005"
+    },
+    {
+      "id": "6",
+      "name": "Dato Chkheidze",
+      "firstName": "Dato",
+      "lastName": "Chkheidze",
+      "profession": "DevOps Engineer",
+      "email": "dato.chkheidze@mail.com",
+      "phone": "+995555111006"
+    },
+    {
+      "id": "7",
+      "name": "Salome Tsintsadze",
+      "firstName": "Salome",
+      "lastName": "Tsintsadze",
+      "profession": "Manual QA Tester",
+      "email": "salome.tsintsadze@mail.com",
+      "phone": "+995555111007"
+    },
+    {
+      "id": "8",
+      "name": "Irakli Gogoladze",
+      "firstName": "Irakli",
+      "lastName": "Gogoladze",
+      "profession": "Mobile Developer",
+      "email": "irakli.gogoladze@mail.com",
+      "phone": "+995555111008"
+    },
+    {
+      "id": "9",
+      "name": "Tamar Khutsishvili",
+      "firstName": "Tamar",
+      "lastName": "Khutsishvili",
+      "profession": "Business Analyst",
+      "email": "tamar.khutsishvili@mail.com",
+      "phone": "+995555111009"
+    },
+    {
+      "id": "10",
+      "name": "Levan Abashidze",
+      "firstName": "Levan",
+      "lastName": "Abashidze",
+      "profession": "Tech Lead",
+      "email": "levan.abashidze@mail.com",
+      "phone": "+995555111010"
+    },
+    {
+      "id": "11",
+      "name": "Lucious Frami",
+      "firstName": "Lucious",
+      "lastName": "Frami",
+      "profession": "QA lead",
+      "email": "LuciousFrami@gmail.com",
+      "phone": "+995585714709"
+    },
+    {
+      "id": "12",
+      "name": "Taylor Mayert",
+      "firstName": "Taylor",
+      "lastName": "Mayert",
+      "profession": "QA lead",
+      "email": "TaylorMayert@gmail.com",
+      "phone": "+995595513237"
+    },
+    {
+      "id": "3",
+      "name": "Mariam Beridze",
+      "firstName": "Mariam",
+      "lastName": "Beridze",
+      "profession": "UI/UX Designer",
+      "email": "mariam.beridze@mail.com",
+      "phone": "+995555111003"
+    },
+    {
+      "id": "13",
+      "name": "Morton Cronin",
+      "firstName": "Morton",
+      "lastName": "Cronin",
+      "profession": "QA lead",
+      "email": "MortonCronin@gmail.com",
+      "phone": "+995534952931"
+    }
+  ]
+}
