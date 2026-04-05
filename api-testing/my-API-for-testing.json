@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Lasha Bokuchava",
       "firstName": "Lasha",
       "lastName": "Bokuchava",
@@ -10,25 +10,25 @@
       "phone": "+995555111001"
     },
     {
-      "id": "2",
-      "name": "Alda Schamberger",
-      "firstName": "Alda",
-      "lastName": "Schamberger",
+      "id": 2,
+      "name": "Jay Kris",
+      "firstName": "Jay",
+      "lastName": "Kris",
       "profession": "QA lead",
-      "email": "AldaSchamberger@gmail.com",
-      "phone": "+995580714187"
+      "email": "JayKris@gmail.com",
+      "phone": "+995585480169"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "aleksi beliashvili",
       "firstName": "aleksi",
       "lastName": "beliashvili",
       "profession": "QA lead",
       "email": "aleksibeliashvilI.com",
-      "phone": "+995546729089"
+      "phone": "+995594665017"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Ana Maisuradze",
       "firstName": "Ana",
       "lastName": "Maisuradze",
@@ -37,7 +37,7 @@
       "phone": "+995555111005"
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Dato Chkheidze",
       "firstName": "Dato",
       "lastName": "Chkheidze",
@@ -46,7 +46,7 @@
       "phone": "+995555111006"
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Salome Tsintsadze",
       "firstName": "Salome",
       "lastName": "Tsintsadze",
@@ -55,7 +55,7 @@
       "phone": "+995555111007"
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Irakli Gogoladze",
       "firstName": "Irakli",
       "lastName": "Gogoladze",
@@ -64,7 +64,7 @@
       "phone": "+995555111008"
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Tamar Khutsishvili",
       "firstName": "Tamar",
       "lastName": "Khutsishvili",
@@ -73,7 +73,7 @@
       "phone": "+995555111009"
     },
     {
-      "id": "10",
+      "id": 10,
       "name": "Levan Abashidze",
       "firstName": "Levan",
       "lastName": "Abashidze",
@@ -82,25 +82,7 @@
       "phone": "+995555111010"
     },
     {
-      "id": "11",
-      "name": "Lucious Frami",
-      "firstName": "Lucious",
-      "lastName": "Frami",
-      "profession": "QA lead",
-      "email": "LuciousFrami@gmail.com",
-      "phone": "+995585714709"
-    },
-    {
-      "id": "12",
-      "name": "Taylor Mayert",
-      "firstName": "Taylor",
-      "lastName": "Mayert",
-      "profession": "QA lead",
-      "email": "TaylorMayert@gmail.com",
-      "phone": "+995595513237"
-    },
-    {
-      "id": "3",
+      "id": 3,
       "name": "Mariam Beridze",
       "firstName": "Mariam",
       "lastName": "Beridze",
@@ -109,13 +91,13 @@
       "phone": "+995555111003"
     },
     {
-      "id": "13",
-      "name": "Morton Cronin",
-      "firstName": "Morton",
-      "lastName": "Cronin",
+      "id": 11,
+      "name": "Nicholas Harvey",
+      "firstName": "Nicholas",
+      "lastName": "Harvey",
       "profession": "QA lead",
-      "email": "MortonCronin@gmail.com",
-      "phone": "+995534952931"
+      "email": "NicholasHarvey@gmail.com",
+      "phone": "+995550764425"
     }
   ]
 }
